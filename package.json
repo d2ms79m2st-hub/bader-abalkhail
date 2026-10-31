@@ -1,0 +1,23 @@
+{
+  "name": "bader-abalkhail-website-preview",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "assets": "python -I -X utf8 scripts/build_assets.py",
+    "frames": "python -I -X utf8 scripts/video_to_frames.py",
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host"
+  },
+  "dependencies": {
+    "gsap": "3.12.5",
+    "lenis": "1.1.13",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.3.1",
+    "vite": "5.4.10"
+  }
+}
